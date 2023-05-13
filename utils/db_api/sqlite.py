@@ -38,7 +38,7 @@ class Database:
             );
 """
         self.execute(sql, commit=True)
-
+#sss
     @staticmethod
     def format_args(sql, parameters: dict):
         sql += " AND ".join([
